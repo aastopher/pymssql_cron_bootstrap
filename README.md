@@ -5,13 +5,11 @@
 # **Setting up the Automation Service**
 
 ## **Installing Cron Service**
-* Open WSL hit Windows+R to open the run window and enter the following `C:\Windows\System32\wsl.exe`
-* Inside of the WSL terminal run the following commands.
 * `sudo apt update`
 * `sudo apt install cron`
 * `sudo apt upgrade`
 
-## **Change path and ad cd in cron_script.sh - __ONLY__ if running from new shell instead of running from project folder**
+## **Change path and add second line in cron_script.sh - __ONLY__ if running from new shell instead of running from project folder**
 * `source PATH_TO_PROJECT/env/bin/activate`
 * `cd PATH_TO_PROJECT`
 

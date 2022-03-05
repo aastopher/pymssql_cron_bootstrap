@@ -20,4 +20,4 @@
 `sudo mount -t drvfs R: /mnt/r`
 
 ## Make a script executable
-* `sudo chmod +x cron_script.sh`
+`sudo chmod +x cron_script.sh`
